@@ -6,3 +6,5 @@ const BookSchema = new Schema({
     keywords: Array,
     published: Boolean
 });
+
+module.exports = mongoose.model('Book', BookSchema);
